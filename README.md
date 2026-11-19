@@ -13,7 +13,7 @@ Guide a runner out of the maze with **DFS, BFS, DLS, IDS, UCS, Greedy Best-First
 
 </div>
 
-![A* solving the key hunt](screenshots/04_astar_key_hunt.png)
+![A* solving the key hunt](Screenshots/04_astar_key_hunt.png)
 
 ---
 
@@ -61,12 +61,12 @@ Algorithms are compared on:
 
 | BFS on a 23×41 maze | A\* with terrain costs |
 |:---:|:---:|
-| ![BFS](screenshots/01_bfs_maze_medium.png) | ![A* Griever Alley](screenshots/02_astar_griever_alley.png) |
+| ![BFS](Screenshots/01_bfs_maze_medium.png) | ![A* Griever Alley](Screenshots/02_astar_griever_alley.png) |
 | Explores level by level (372 nodes). | Routes around costly `G` cells (205 nodes). |
 
 | A\* on the Greedy Trap | Algorithm comparison |
 |:---:|:---:|
-| ![A* Greedy Trap](screenshots/03_astar_greedy_trap.png) | ![Compare](screenshots/05_compare_table.png) |
+| ![A* Greedy Trap](Screenshots/03_astar_greedy_trap.png) | ![Compare](Screenshots/05_compare_table.png) |
 | Optimal cost 59, where greedy search returns 84. | Output of `--compare`. |
 
 > Colour guide: warm cells are expanded states (yellow = early, red = late), the blue line is the final path, and diamonds are code pieces.
@@ -136,7 +136,7 @@ Maze-Runner-Classical-AI-Search/
 ├── maze.py          # maze loader and terrain rules
 ├── display.py       # text and Tkinter displays
 ├── util.py          # Stack, Queue, PriorityQueue
-├── screenshots/     # images used in this README
+├── Screenshots/     # images used in this README
 └── mazes/           # *.maze layouts
 ```
 
